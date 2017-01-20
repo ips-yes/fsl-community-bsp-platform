@@ -17,7 +17,7 @@
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="417f669e4dede244a81e11aa6d8b60c4e333e589" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
+  <project remote="freescale" revision="dd074c47af53948041f6c5671e519fbf815b0980" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="8bffde8d803dd2362fbded79781ce084d723b048" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="freescale" revision="6f697405c1db4d29013f415f1f567df21a7c781a" name="Documentation" path="sources/Documentation"/>
 

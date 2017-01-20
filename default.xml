@@ -7,18 +7,18 @@
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
 
-  <project remote="yocto" revision="jethro" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="jethro" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
+  <project remote="yocto" revision="e08994ce953ff5ab49b260e7763a40bfad4285ca" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="417f669e4dede244a81e11aa6d8b60c4e333e589" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
-  <project remote="oe" revision="jethro" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" revision="2ea8d7f54a061e902657c4f8ea1f7f7c25c6c4e1" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="freescale" revision="jethro" name="fsl-community-bsp-base" path="sources/base">
+  <project remote="freescale" revision="3a9c59399dbcf4790578125f016c6e86aff43367" name="fsl-community-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="jethro" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
-  <project remote="freescale" revision="jethro" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
-  <project remote="freescale" revision="jethro" name="Documentation" path="sources/Documentation"/>
+  <project remote="freescale" revision="417f669e4dede244a81e11aa6d8b60c4e333e589" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
+  <project remote="freescale" revision="8bffde8d803dd2362fbded79781ce084d723b048" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
+  <project remote="freescale" revision="6f697405c1db4d29013f415f1f567df21a7c781a" name="Documentation" path="sources/Documentation"/>
 
 </manifest>
